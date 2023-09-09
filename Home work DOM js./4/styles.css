@@ -1,0 +1,14 @@
+@import url(./index.html);
+
+ .button {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: darkgray;
+ }
+
+ .input {
+  margin-top: 10px;
+  margin-left: 10px;
+  color: darkgray;
+ }
+

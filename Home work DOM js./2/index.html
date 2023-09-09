@@ -1,0 +1,44 @@
+<!-- 
+Для сторінки
+<body>
+  <h1>I'am a big header!!!</h1>
+  <div id="myDiv">
+    <p>First paragraph</p>
+    <p>Second paragraph</p>
+    <p>Third paragraph</p>
+    <p>Fourth paragraph</p>
+  </div>
+  <ul id="myList">
+    <li>Make</li>
+    <li>me</li>
+    <li>horizontal!</li>
+  </ul>
+  <span>Make me invisible, please!</span>
+</body>
+
+Напишіть скріпт, який за допомогою засобів DOM простилізує сторінку так як показано на картинці.
+https://media.discordapp.net/attachments/1080492799943790642/1088041210431684648/image.png -->
+
+<html>
+<head>
+  <link href="./styles.css" rel="stylesheet" />
+</head>
+<body>
+  <h1 id="myHeader">I'am a big header!!!</h1>
+  <div id="myDiv">
+    <p id="fistElement">First paragraph</p>
+    <p id="secondElement">Second paragraph</p>
+    <p id="thirdElement">Third paragraph</p>
+    <p id="forthElement">Fourth paragraph</p>
+  </div>
+  <div class="makeHorizontal">
+    <ul id="myList">
+      <li>Make</li>
+      <li>me</li>
+      <li>horizontal!</li>
+    </ul>
+  </div>
+  <span id="lastElement" class="lastItem">Make me invisible, please!</span>
+  <script src="./DOM.js"></script>
+</body>
+</html>

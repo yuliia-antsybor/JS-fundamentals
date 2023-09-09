@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>This is the title of the webpage!</title>
+</head>
+<title>
+</title>
+
+<body>
+  <script src = "JS.base"></script>
+  <p>This is an example paragraph</p>
+</body>
+
+</html>
