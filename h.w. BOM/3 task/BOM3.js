@@ -13,7 +13,7 @@
 const btnBlue = document.getElementById('btnBlue')
 const btnPink = document.getElementById('btnPink')
 const btnBrown = document.getElementById('btnBrown')
-const element4 = document.getElementById('element4')
+const hoverLink = document.getElementById('hoverLink')
 
 //  1) 1-ша кнопка – при кліку на неї колір фону сторінки міняється на синій
 document.getElementById("btnBlue").onclick = () => {
@@ -37,10 +37,10 @@ btnBrown.addEventListener("mouseup", () => {
 
 //4) При наведенні на лінку – колір фону стає жовтим, при відведенні – білим.
 
-element4.addEventListener("mouseenter", () => {
+hoverLink.addEventListener("mouseenter", () => {
   document.body.style.backgroundColor = "yellow";
 });
 
-element4.addEventListener("mouseleave", () => {
+hoverLink.addEventListener("mouseleave", () => {
   document.body.style.backgroundColor = "white";
 });

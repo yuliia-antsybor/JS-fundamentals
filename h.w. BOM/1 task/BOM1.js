@@ -4,7 +4,7 @@
 //      2) із затримкою 2 сек змініть розміри вікна на 500х500 пікселів
 //      3) із затримкою 2 сек перемістіть вікно в точку з координатами (200, 200)
 //      4) із затримкою 2 сек закрийте вікно.
-let newWindow = window.open("https://google.com/", "myWindow", "width=300,height=300");
+let newWindow = window.open("/", "myWindow", "width=300, height=300");
 
 setTimeout(() => {
   newWindow.resizeTo(500, 500);
@@ -17,3 +17,4 @@ setTimeout(() => {
     }, 2000);
   }, 2000);
 }, 2000); 
+
