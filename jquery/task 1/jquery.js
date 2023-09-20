@@ -7,3 +7,9 @@
 //     <h2>header3</h2>
 //     <h2 class="head">header4<span>inner elem2</span></h2>
 //     <h2>header5</h2>
+
+const headings = $('h2.head');
+
+headings.css('background-color', 'green');
+headings.find('.inner').css('font-size', '35px');
+
