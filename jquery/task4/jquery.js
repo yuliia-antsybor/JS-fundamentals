@@ -10,3 +10,4 @@ checkboxes.on('click', function() {
     checkboxes.attr('disabled', true);
   }
 });
+

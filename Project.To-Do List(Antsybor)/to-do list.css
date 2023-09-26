@@ -1,0 +1,16 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+.continer {
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(135, 173, 244);
+}
+
+/* .inputCSS {
+
+} */
